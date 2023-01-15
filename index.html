@@ -60,9 +60,9 @@
 			</div>
 			<div class="box">
 				<div class="box-head">
-					<img src="urun2.jpg" alt="AHŞAP">
-					<span class="menu-category">EURO PALET</span>
-					<h3>Euro Ahşap Palet</h3>
+					<img src="urun3.jpg" alt="AHŞAP">
+					<span class="menu-category">AHŞAP</span>
+					<h3>Ahşap 100x120 Palet</h3>
 				</div>
 				<div class="box-bottom">
 					<a href="https://wa.me/+905454182392" class="btn">SİPARİŞ VER</a>
@@ -70,9 +70,9 @@
 			</div>
 			<div class="box">
 				<div class="box-head">
-					<img src="urun3.jpg" alt="AHŞAP">
-					<span class="menu-category">AHŞAP</span>
-					<h3>Ahşap 100x120 Palet</h3>
+					<img src="urun2.jpg" alt="EURO">
+					<span class="menu-category">EURO PALET</span>
+					<h3>Ahşap Euro Palet</h3>
 				</div>
 				<div class="box-bottom">
 					<a href="https://wa.me/+905454182392" class="btn">SİPARİŞ VER</a>
@@ -112,15 +112,15 @@
 				<h3>İLETİŞİME GEÇ</h3>
 				<div class="inputBox">
 					<i class="fas fa-user"></i>
-					<input type="text" placeholder="İsim">
+					<input type="text" id="isim" placeholder="İsim">
 				</div>
 				<div class="inputBox">
 					<i class="fas fa-envelope"></i>
-					<input type="email" placeholder="Mail">
+					<input type="email" id="email" placeholder="Mail">
 				</div>
 				<div class="inputBox">
 					<i class="fas fa-phone"></i>
-					<input type="number" placeholder="Telefon Numarası">
+					<input type="number" id="telno" placeholder="Telefon Numarası">
 				</div>
 				<input type="submit" class="btn" value="Gönder">
 
@@ -131,10 +131,6 @@
 
 	<!--! footer section start -->
 	<section class="footer">
-		<div class="search">
-			<input type="text" class="search-input" placeholder="Google'da ara">
-			<button class="btn btn-primary">ARA</button>
-		</div>
 		<div class="share">
 			<a href="#" class="fab fa-facebook"></a>
 			<a href="https://www.instagram.com/mesut.aslnx/" class="fab fa-instagram"></a>
@@ -158,22 +154,6 @@
 	</section>
 	<!--! footer section end -->
 	<script src="js/script.js"></script>
-	<script src="https://smtpjs.com/v3/smtp.js"></script>
-	<script>
-		function sendEmail(){
-			Email.send({
-    			Host : "smtp.gmail.com",
-   				Username : "username",
-    			Password : "password",
-    			To : 'them@website.com',
-    			From : "you@isp.com",
-    			Subject : "This is the subject",
-    			Body : "And this is the body"
-			}).then(
-  			message => alert(message)
-			);
-		}
-	</script>
 </body>
 
 </html>
