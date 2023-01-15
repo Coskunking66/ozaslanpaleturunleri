@@ -132,7 +132,7 @@ section{
 /*! home start */
 .home{
 	min-height: 100vh;
-	background: url(../images/palet.jpg) no-repeat;
+	background: url(../palet.jpg) no-repeat;
 	background-size: cover;
 	background-position: center	;
 	margin-top: -14.5rem;
@@ -168,7 +168,7 @@ section{
 		padding: 3rem;
 		background-color: #fff;
 		border-radius: 3rem;
-		min-height: 60rem;
+		min-height: 50rem;
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
@@ -192,17 +192,6 @@ section{
 		padding: 1rem;
 	}
 	
-
-	.menu .box-container .box .price{
-		font-size: 2.5rem;
-		padding: 0.5rem 0;
-	}
-
-	.menu .box-container .box .price span{
-		font-size: 1.5rem;
-		font-weight: 300;
-		text-decoration: line-through;
-	}
 /*! ürünler end */
 
 /*! hakkımızda start */
@@ -218,7 +207,7 @@ section{
 	}
 
 	.about .row .img{
-		width: 100%;
+		width: 75%;
 	}
 	.about .row .content{
 		flex: 1 1 45rem;
@@ -299,23 +288,6 @@ section{
 
 	}
 
-	.footer .search{
-		display: flex;
-		justify-content: center;
-
-	}
-
-	.footer .search .searchinput{
-		width: 30rem;
-
-	}
-
-	.footer .search .btn-primary{
-		background-color: var(--main-color);
-		padding: 1rem 2rem;
-		margin-left: 1rem;
-	}
-
 	.footer .share {
 		padding: 2rem 0;
 
@@ -333,7 +305,7 @@ section{
 		
 	}
 
-	footer .share a: hover{
+	footer .share a:hover{
 		background-color: var(--main-color);
 
 	}
