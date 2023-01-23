@@ -5,6 +5,7 @@ let baslik = document.title;
 		document.title=baslik;
 
 
+
 const navbar = document.querySelector(".navbar");
 
 //! buttons
