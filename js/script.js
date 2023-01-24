@@ -26,7 +26,3 @@ menuBtn.addEventListener("click", function (){
 });
 
 
-
-
-
-
