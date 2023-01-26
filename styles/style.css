@@ -199,7 +199,7 @@ a{
 /*! home start */
 .home {
 	min-height: 100vh;
-	background: linear-gradient(rgba(0,0,0,0.3)), url(palet.jpg) no-repeat;
+	background: linear-gradient(rgba(0,0,0,0.3)), url(../palet.jpg) no-repeat;
 	background-size: cover;
 	background-position: center;
 	margin-top: -14.8rem;
@@ -439,17 +439,11 @@ footer .share a:hover {
 	}
 	
 	.pps-btn-img {
-		right: 1.5rem;
-		bottom: 10rem;
-		width: 25rem;
-		height: 6rem;
-	}
+		font-size:50
+		
 	.wpbtn{
-		right: 1.5rem;
-		bottom: 2rem;
-		width: 25rem;
-		height: 6rem;
-	}
+		font-size:50
+	} 
 
 	.header {
 		padding: 1.5rem 2rem;
@@ -472,16 +466,10 @@ footer .share a:hover {
 		display: inline-block;
 	}
 	.pps-btn-img {
-		right: 1rem;
-		bottom: 10rem;
-		width: 20rem;
-		height: 5rem
+		font-size:50
 		
 	.wpbtn{
-		right: 2rem;
-		bottom: 2rem;
-		width: 20rem;
-		height: 5rem;
+		font-size:50
 	}
 	.header .navbar {
 		position: absolute;
